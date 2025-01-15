@@ -35,7 +35,7 @@ Steps to run it locally:
 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ssschneider/coin-monitor.git
 ``` 
 
 2. Run bundler to  ensure all gems are installed
