@@ -1,24 +1,56 @@
-# README
+<h1 align="center"> Coin Monitor </h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p align="center">
+Coin Monitor is an application that allows to monitor the rate of dollars, euros and pounds to reais for the last 30 days. With an interactive chart and intuitive layout, the user has the rates conversion just a click away!<br/>
+</p>
 
-Things you may want to cover:
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Run Locally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-* Ruby version
+<p align="center">
+  <img alt="Preview" src=".github/preview.png" width="100%">
+</p>
 
-* System dependencies
 
-* Configuration
+## 🚀 Technologies
+- Ruby
+- Rails
+- HTML
+- CSS
+- Javascript
+- Chartkick
+- API 
 
-* Database creation
+## 💻 Run Locally
 
-* Database initialization
+> To run the project locally you must have `RUBY` and `RAILS` on your computer
+* Ruby version used: 3.4.1
+* Rails version used: 8.0.1
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Steps to run it locally:
 
-* Deployment instructions
+1. Clone the Repository
 
-* ...
+```bash
+git clone <repository-url>
+``` 
+
+2. Run bundler to  ensure all gems are installed
+
+```bash
+bundle i
+```
+
+3. Start the rails server
+
+```bash
+rails s
+```
+
+<br/><br/>
+
+---
+### Developed by Sarah Schneider 🖖
