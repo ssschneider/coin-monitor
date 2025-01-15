@@ -1,2 +1,24 @@
+<div class="wrapper">
+  <header>
+    <h1>Rate Conversion</h1>
+    <p>Dollar, Euro, Pounds</p>
+  </header>
 
-<%= column_chart @chart_data, min: 4, max: 10, colors: ["#22C55E", "#2563EB", "#D97706"], xtitle: "Date", ytitle: "Rate", curve: false, prefix: "R$ ", decimal: "," %>
+  <main>
+    <div class="chart-wrapper">
+      <%= column_chart @chart_data, min: 4, max: 10, colors: ["#22C55E", "#22D3EE", "#DC2626"], curve: false, prefix: "R$ ", decimal: "," %>
+    </div>
+
+    <div class="details">
+      <ul>
+        <li> This chart contains the currency rates for the last 30 days </li>
+        <li> To stop viewing a coin, just click on the label on top of the chart </li>
+        <li> Currency rate information: <a href="https://docs.awesomeapi.com.br/api-de-moedas" target="blank">Awesome API | Cotação de Moedas</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using Ruby on Rails</p>
+  </footer>
+</div>
