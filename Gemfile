@@ -31,6 +31,9 @@ gem "solid_cable"
 # Add Chartkick to generate graphics
 gem "chartkick"
 
+# Organize chart better
+gem "groupdate"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 

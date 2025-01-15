@@ -1,1 +1,2 @@
-<%= line_chart({"2025-01-01" => 2, "2025-01-02" => 3}) %>
+
+<%= column_chart @chart_data, min: 4, max: 10, colors: ["#22C55E", "#2563EB", "#D97706"], xtitle: "Date", ytitle: "Rate", curve: false, prefix: "R$ ", decimal: "," %>
